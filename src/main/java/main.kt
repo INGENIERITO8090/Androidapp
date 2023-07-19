@@ -101,6 +101,115 @@ fun main(){
 
 }*/
 fun main(){
+//    1. Escribir un algoritmo para saber si el número ingresado por teclado es positivo o negativo.
+    /*
+    println("digite un numero")
+    val n : Int= readLine()!!.toInt()
+    if (n >0) {
+        println("el numero es positivo")
+    }
+    else if (n<0) {
+        println("el numero es negativo")
+    }
+    else if (n.equals(0)){
+        println("el numero es cero ")
+    }*/
+ // 2 Escribir un algoritmo que reciba dos números por teclado y diga cuál es el mayor y cuál el menor.
+
+   /*  println(" digite el  Primer numero : ")
+    val  n1:Int = readLine()!!.toInt()
+    println(" digite el  Segundo numero 2 : ")
+     val n2:Int = readLine()!!.toInt()
+
+    if (n1 > n2) {
+    println("el numero mayor es el primero $n1")
+    }
+    else if (n1 < n2) {
+        println("el numero mayor es el segundo  $n2")
+    }
+  else {
+      println("los numeros son iguales ")
+  }
+*/
+
+
+ // 3 Escriba un programa que lea tres números enteros positivos y que calcule e imprima en  pantalla el menor y el mayor de ellos
+/*
+    println("digite el primer numero : ")
+     val n1 :Int= readLine()!!.toInt()
+    println("digite el  segundo  numero : ")
+    val n2 :Int= readLine()!!.toInt()
+    println("digite el tercer  numero : ")
+    val n3 :Int= readLine()!!.toInt()
+
+     var  nums = arrayOf(n1,n2,n3)
+      var nm = nums.max()
+     var  nmen=nums.min()
+    println("el numero mayor es $nm  \n el numero menor es $nmen ")
+    */
+
+    // 2 Dados dos números A y B, sumarlos si A es menor que B o sino restarlos
+
+  /*  println(" Digite el numero A " )
+    val a: Int = readLine()!!.toInt()
+    println(" Digite el numero B " )
+   val  b:Int = readLine()!!.toInt()
+  if(a<b){
+      val sum = a+b
+      println(" la sumade $a + $b es $sum")
+  }
+    else{
+         val res=a-b
+      println(" la resta de $a + $b es $res")
+
+  } */
+
+    // 5. Dados dos números A y B encontrar el cociente entre A y B. Recordar que la división por cero
+    //no está definida, en ese caso debe aparecer una leyenda anunciando que la división no es
+    //posible.
+
+/*
+    println(" digite el numero A : ")
+    val a : Int = readLine()!!.toInt()
+    println(" digite el numero b : ")
+    val b : Int = readLine()!!.toInt()
+
+    if( a >0 && b>0 ) {
+        val result = a / b
+        println(" el resultado de la division entre $a y $b es $result")
+    }
+    else{
+        println("la division entre 0 no esta definida ")
+    }
+*/
+
+    // 6  Dados dos números A y B, sumarlos si al menos uno de ellos es negativo, en caso contrario
+    //multiplicarlos
+
+   /* println("Digite el numero A ")
+    val  A :Int = readLine()!!.toInt()
+    println("Digite el numero B ")
+    val  B :Int = readLine()!!.toInt()
+    if(A<0 || B<0 ){
+         val sum = A+B
+        println("la suma entre $A + $B es $sum ")
+    }
+  else{
+      val multiply = A*B
+         println("la multiplicacion entre $A*$B es $multiply")
+
+  }*/
+
+
+    // 8  Escribir un algoritmo que determine si un año es bisiesto o no
+    println("escriba el año el cual desea consultar si es bisiesto o no  ")
+    val year:Int = readLine()!!.toInt()
+    if ( year%4 == 0 ){
+        println("el año $year es biciesto ")
+    }
+  else{
+      println(" el año no es biciesto ")
+  }
 
     
 }
